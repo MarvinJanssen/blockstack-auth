@@ -1,0 +1,27 @@
+{
+	"name": "marvinjanssen/blockstack-auth",
+	"description": "Blockstack Authorization in PHP. Verifies authorization tokens.",
+	"require": {
+		"simplito/elliptic-php": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"version": "1.0.0",
+	"license": "MIT",
+	"type": "library",
+	"keywords": ["blockstack","authentication"],
+	"homepage": "https://github.com/MarvinJanssen/blockstack-auth",
+	"authors": [
+		{
+			"name": "Marvin Janssen",
+			"homepage": "http://marvinjanssen.me"
+		}
+	],
+	"autoload": {
+		"files": ["src/blockstack.auth.php"]
+	},
+	"scripts": {
+		"test": "phpunit --verbose test/*"
+	}
+}
